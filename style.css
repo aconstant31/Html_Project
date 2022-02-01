@@ -1,9 +1,26 @@
-.background-image {
-    background-image: url("Images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
-  }
+#banner {
+    background: url("Images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+    background-size: cover;
+    height: 1000px;
+    width: 1600px;
+    position: relative;
+}
 
-  .nav {
+.nav {
     margin: 0;
     padding: 20px 0;
-    z-index: 1;
-  }
+    z-index: 10;
+    position:
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
