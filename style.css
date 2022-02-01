@@ -1,26 +1,66 @@
-#banner {
-    background: url("Images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+
+/*background image*/
+.bg-img {
+    background-image: url("https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
     background-size: cover;
-    height: 1000px;
-    width: 1600px;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
     position: relative;
-}
-
-.nav {
-    margin: 0;
-    padding: 20px 0;
-    z-index: 10;
-    position:
-}
-
-.button {
-    border: none;
+  }
+  
+  /*Overlay*/
+  .bg-img:before { 
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(150, 148, 146, 0.3)
+  }
+  
+  nav li{
+    float: right;
+  }
+   
+  nav ul {
+    list-style-type: none;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  h1 {
     color: white;
-    background-color: blue;
-    padding: 15px 32px;
+    margin: 30px auto;
+    padding: 0 20px;
     text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 80px;
+  }
+  
+  button {
+    background-color: transparent; 
+    border: 2px solid white;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    left: 530px;
+    top: 150px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
-}
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: white;
+  }
