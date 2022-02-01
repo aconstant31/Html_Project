@@ -1,0 +1,9 @@
+.background-image {
+    background-image: url("Images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+  }
+
+  .nav {
+    margin: 0;
+    padding: 20px 0;
+    z-index: 1;
+  }
